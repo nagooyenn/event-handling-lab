@@ -8,7 +8,40 @@
 </head>
 <body>
     <h1>JavaScript Event Handling Demo</h1>
-    
+
+    <section>
+        <h2>Mouse Events</h2>
+        <button id="hover-btn">Hover over me</button>
+        <p id="hover-msg"></p>
+    </section>
+    <section>
+        <h2>Keyboard Events</h2>
+        <input type="text" id="key-input" placeholder="Type something">
+        <p id="key-msg"></p>
+    </section>
+    <section>
+        <h2>Form Events</h2>
+        <form id="event-form">
+            <input type="text" name="username" placeholder="Enter your name">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-msg"></p>
+    </section>
+    <section>
+        <h2>Focus & Blur Events</h2>
+        <input type="text" id="focus-input" placeholder="Click to focus">
+        <p id="focus-msg"></p>
+    </section>
+    <section>
+        <h2>Event Delegation</h2>
+        <div id="button-container">
+            <button class="delegate-btn">Button 1</button>
+            <button class="delegate-btn">Button 2</button>
+            <button class="delegate-btn">Button 3</button>
+        </div>
+        <p id="delegate-msg"></p>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
