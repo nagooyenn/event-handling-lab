@@ -1,25 +1,65 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    padding: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
 }
 
 section {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 300px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
 }
 
 button {
-    padding: 8px 12px;
+    padding: 10px 15px;
+    font-size: 16px;
     cursor: pointer;
+    background: #aec47b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
-input {
-    padding: 5px;
-    width: 100%;
-    margin: 5px 0;
+button:hover {
+    background: #d4749c;
 }
 
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.delegate-btn {
+    background: #28a745;
+}
+
+.delegate-btn:hover {
+    background: #218838;
+}
